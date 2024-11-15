@@ -7,7 +7,7 @@ async function handleRequest(request) {
   const pathname = url.pathname;
 
   if (pathname === '/' || pathname === '/index.html') {
-    return new Response('service is running!', {
+    return new Response('API代理服务正常运行中，详细使用教程请查看：https://plusai.zhangsan.link', {
       status: 200,
       headers: {
         'Content-Type': 'text/html'
