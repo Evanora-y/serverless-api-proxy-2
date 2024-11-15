@@ -1,7 +1,7 @@
 {
     "name": "serverless-api-proxy",
     "version": "1.0.0",
-    "description": "Multi-API Proxy Gateway Based on Vercel Routes, Cloudflare Workers, and Netlify Redirects",
+    "description": "基于路由的多API代理网关",
     "scripts": {
       "build": "echo 'No build step required.'"
     },
